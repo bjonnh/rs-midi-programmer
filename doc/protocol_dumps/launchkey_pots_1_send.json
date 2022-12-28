@@ -1,0 +1,779 @@
+[
+  {
+    "_index": "packets-2022-12-27",
+    "_type": "doc",
+    "_score": null,
+    "_source": {
+      "layers": {
+        "frame": {
+          "frame.section_number": "1",
+          "frame.interface_id": "0",
+          "frame.interface_id_tree": {
+            "frame.interface_name": "usbmon0"
+          },
+          "frame.encap_type": "115",
+          "frame.time": "Dec 27, 2022 21:51:34.937277000 CST",
+          "frame.offset_shift": "0.000000000",
+          "frame.time_epoch": "1672199494.937277000",
+          "frame.time_delta": "0.000767000",
+          "frame.time_delta_displayed": "0.000000000",
+          "frame.time_relative": "10.356833000",
+          "frame.number": "26505",
+          "frame.len": "128",
+          "frame.cap_len": "128",
+          "frame.marked": "0",
+          "frame.ignored": "0",
+          "frame.protocols": "usb"
+        },
+        "usb": {
+          "usb.src": "host",
+          "usb.addr": "host",
+          "usb.dst": "5.48.1",
+          "usb.addr": "5.48.1",
+          "usb.urb_id": "0xffff956af6b65740",
+          "usb.urb_type": "'S'",
+          "usb.transfer_type": "0x03",
+          "usb.endpoint_address": "0x01",
+          "usb.endpoint_address_tree": {
+            "usb.endpoint_address.direction": "0",
+            "usb.endpoint_address.number": "1"
+          },
+          "usb.device_address": "48",
+          "usb.bus_id": "5",
+          "usb.setup_flag": "'-'",
+          "usb.data_flag": "'\\0'",
+          "usb.urb_ts_sec": "1672199494",
+          "usb.urb_ts_usec": "937277",
+          "usb.urb_status": "-115",
+          "usb.urb_len": "64",
+          "usb.data_len": "64",
+          "usb.response_in": "26508",
+          "usb.bInterfaceClass": "0xff",
+          "usb.unused_setup_header": "",
+          "usb.interval": "0",
+          "usb.start_frame": "0",
+          "usb.copy_of_transfer_flags": "0x00000004",
+          "usb.copy_of_transfer_flags_tree": {
+            "usb.transfer_flags.short_not_ok": "0",
+            "usb.transfer_flags.iso_asap": "0",
+            "usb.transfer_flags.no_transfer_dma_map": "1",
+            "usb.transfer_flags.no_fsbr": "0",
+            "usb.transfer_flags.zero_packet": "0",
+            "usb.transfer_flags.no_interrupt": "0",
+            "usb.transfer_flags.free_buffer": "0",
+            "usb.transfer_flags.dir_in": "0",
+            "usb.transfer_flags.dma_map_single": "0",
+            "usb.transfer_flags.dma_map_page": "0",
+            "usb.transfer_flags.dma_map_sg": "0",
+            "usb.transfer_flags.map_local": "0",
+            "usb.transfer_flags.setup_map_single": "0",
+            "usb.transfer_flags.setup_map_local": "0",
+            "usb.transfer_flags.dma_sg_combined": "0",
+            "usb.transfer_flags.aligned_temp_buffer": "0"
+          },
+          "usb.iso.numdesc": "0"
+        },
+        "usb.capdata": "04:f0:00:20:04:29:02:0f:04:05:00:45:04:00:06:00:04:1a:04:40:04:20:07:4d:04:50:43:20:04:4f:6e:65:04:49:38:02:04:00:00:01:04:40:00:14:04:7f:00:49:04:39:02:00:04:00:01:40:04:00:15:7f:04:00:49:3a"
+      }
+    }
+  },
+  {
+    "_index": "packets-2022-12-27",
+    "_type": "doc",
+    "_score": null,
+    "_source": {
+      "layers": {
+        "frame": {
+          "frame.section_number": "1",
+          "frame.interface_id": "0",
+          "frame.interface_id_tree": {
+            "frame.interface_name": "usbmon0"
+          },
+          "frame.encap_type": "115",
+          "frame.time": "Dec 27, 2022 21:51:34.937282000 CST",
+          "frame.offset_shift": "0.000000000",
+          "frame.time_epoch": "1672199494.937282000",
+          "frame.time_delta": "0.000005000",
+          "frame.time_delta_displayed": "0.000005000",
+          "frame.time_relative": "10.356838000",
+          "frame.number": "26506",
+          "frame.len": "128",
+          "frame.cap_len": "128",
+          "frame.marked": "0",
+          "frame.ignored": "0",
+          "frame.protocols": "usb"
+        },
+        "usb": {
+          "usb.src": "host",
+          "usb.addr": "host",
+          "usb.dst": "5.48.1",
+          "usb.addr": "5.48.1",
+          "usb.urb_id": "0xffff956af6b65c80",
+          "usb.urb_type": "'S'",
+          "usb.transfer_type": "0x03",
+          "usb.endpoint_address": "0x01",
+          "usb.endpoint_address_tree": {
+            "usb.endpoint_address.direction": "0",
+            "usb.endpoint_address.number": "1"
+          },
+          "usb.device_address": "48",
+          "usb.bus_id": "5",
+          "usb.setup_flag": "'-'",
+          "usb.data_flag": "'\\0'",
+          "usb.urb_ts_sec": "1672199494",
+          "usb.urb_ts_usec": "937282",
+          "usb.urb_status": "-115",
+          "usb.urb_len": "64",
+          "usb.data_len": "64",
+          "usb.response_in": "26511",
+          "usb.bInterfaceClass": "0xff",
+          "usb.unused_setup_header": "",
+          "usb.interval": "0",
+          "usb.start_frame": "0",
+          "usb.copy_of_transfer_flags": "0x00000004",
+          "usb.copy_of_transfer_flags_tree": {
+            "usb.transfer_flags.short_not_ok": "0",
+            "usb.transfer_flags.iso_asap": "0",
+            "usb.transfer_flags.no_transfer_dma_map": "1",
+            "usb.transfer_flags.no_fsbr": "0",
+            "usb.transfer_flags.zero_packet": "0",
+            "usb.transfer_flags.no_interrupt": "0",
+            "usb.transfer_flags.free_buffer": "0",
+            "usb.transfer_flags.dir_in": "0",
+            "usb.transfer_flags.dma_map_single": "0",
+            "usb.transfer_flags.dma_map_page": "0",
+            "usb.transfer_flags.dma_map_sg": "0",
+            "usb.transfer_flags.map_local": "0",
+            "usb.transfer_flags.setup_map_single": "0",
+            "usb.transfer_flags.setup_map_local": "0",
+            "usb.transfer_flags.dma_sg_combined": "0",
+            "usb.transfer_flags.aligned_temp_buffer": "0"
+          },
+          "usb.iso.numdesc": "0"
+        },
+        "usb.capdata": "04:02:00:00:04:01:40:00:04:16:7f:00:04:49:3b:02:04:00:00:01:04:40:00:17:04:7f:00:49:04:3c:02:00:04:00:01:40:04:00:18:7f:04:00:49:3d:04:02:00:00:04:01:40:00:04:19:7f:00:04:49:3e:02:04:00:00:01"
+      }
+    }
+  },
+  {
+    "_index": "packets-2022-12-27",
+    "_type": "doc",
+    "_score": null,
+    "_source": {
+      "layers": {
+        "frame": {
+          "frame.section_number": "1",
+          "frame.interface_id": "0",
+          "frame.interface_id_tree": {
+            "frame.interface_name": "usbmon0"
+          },
+          "frame.encap_type": "115",
+          "frame.time": "Dec 27, 2022 21:51:34.937285000 CST",
+          "frame.offset_shift": "0.000000000",
+          "frame.time_epoch": "1672199494.937285000",
+          "frame.time_delta": "0.000003000",
+          "frame.time_delta_displayed": "0.000003000",
+          "frame.time_relative": "10.356841000",
+          "frame.number": "26507",
+          "frame.len": "88",
+          "frame.cap_len": "88",
+          "frame.marked": "0",
+          "frame.ignored": "0",
+          "frame.protocols": "usb"
+        },
+        "usb": {
+          "usb.src": "host",
+          "usb.addr": "host",
+          "usb.dst": "5.48.1",
+          "usb.addr": "5.48.1",
+          "usb.urb_id": "0xffff956af6b643c0",
+          "usb.urb_type": "'S'",
+          "usb.transfer_type": "0x03",
+          "usb.endpoint_address": "0x01",
+          "usb.endpoint_address_tree": {
+            "usb.endpoint_address.direction": "0",
+            "usb.endpoint_address.number": "1"
+          },
+          "usb.device_address": "48",
+          "usb.bus_id": "5",
+          "usb.setup_flag": "'-'",
+          "usb.data_flag": "'\\0'",
+          "usb.urb_ts_sec": "1672199494",
+          "usb.urb_ts_usec": "937285",
+          "usb.urb_status": "-115",
+          "usb.urb_len": "24",
+          "usb.data_len": "24",
+          "usb.response_in": "26512",
+          "usb.bInterfaceClass": "0xff",
+          "usb.unused_setup_header": "",
+          "usb.interval": "0",
+          "usb.start_frame": "0",
+          "usb.copy_of_transfer_flags": "0x00000004",
+          "usb.copy_of_transfer_flags_tree": {
+            "usb.transfer_flags.short_not_ok": "0",
+            "usb.transfer_flags.iso_asap": "0",
+            "usb.transfer_flags.no_transfer_dma_map": "1",
+            "usb.transfer_flags.no_fsbr": "0",
+            "usb.transfer_flags.zero_packet": "0",
+            "usb.transfer_flags.no_interrupt": "0",
+            "usb.transfer_flags.free_buffer": "0",
+            "usb.transfer_flags.dir_in": "0",
+            "usb.transfer_flags.dma_map_single": "0",
+            "usb.transfer_flags.dma_map_page": "0",
+            "usb.transfer_flags.dma_map_sg": "0",
+            "usb.transfer_flags.map_local": "0",
+            "usb.transfer_flags.setup_map_single": "0",
+            "usb.transfer_flags.setup_map_local": "0",
+            "usb.transfer_flags.dma_sg_combined": "0",
+            "usb.transfer_flags.aligned_temp_buffer": "0"
+          },
+          "usb.iso.numdesc": "0"
+        },
+        "usb.capdata": "04:40:00:1a:04:7f:00:49:04:3f:02:00:04:00:01:40:04:00:1b:7f:06:00:f7:00"
+      }
+    }
+  },
+  {
+    "_index": "packets-2022-12-27",
+    "_type": "doc",
+    "_score": null,
+    "_source": {
+      "layers": {
+        "frame": {
+          "frame.section_number": "1",
+          "frame.interface_id": "0",
+          "frame.interface_id_tree": {
+            "frame.interface_name": "usbmon0"
+          },
+          "frame.encap_type": "115",
+          "frame.time": "Dec 27, 2022 21:51:34.937348000 CST",
+          "frame.offset_shift": "0.000000000",
+          "frame.time_epoch": "1672199494.937348000",
+          "frame.time_delta": "0.000063000",
+          "frame.time_delta_displayed": "0.000063000",
+          "frame.time_relative": "10.356904000",
+          "frame.number": "26508",
+          "frame.len": "64",
+          "frame.cap_len": "64",
+          "frame.marked": "0",
+          "frame.ignored": "0",
+          "frame.protocols": "usb"
+        },
+        "usb": {
+          "usb.src": "5.48.1",
+          "usb.addr": "5.48.1",
+          "usb.dst": "host",
+          "usb.addr": "host",
+          "usb.urb_id": "0xffff956af6b65740",
+          "usb.urb_type": "'C'",
+          "usb.transfer_type": "0x03",
+          "usb.endpoint_address": "0x01",
+          "usb.endpoint_address_tree": {
+            "usb.endpoint_address.direction": "0",
+            "usb.endpoint_address.number": "1"
+          },
+          "usb.device_address": "48",
+          "usb.bus_id": "5",
+          "usb.setup_flag": "'-'",
+          "usb.data_flag": "'>'",
+          "usb.urb_ts_sec": "1672199494",
+          "usb.urb_ts_usec": "937348",
+          "usb.urb_status": "0",
+          "usb.urb_len": "64",
+          "usb.data_len": "0",
+          "usb.request_in": "26505",
+          "usb.time": "0.000071000",
+          "usb.bInterfaceClass": "0xff",
+          "usb.unused_setup_header": "",
+          "usb.interval": "0",
+          "usb.start_frame": "0",
+          "usb.copy_of_transfer_flags": "0x00000004",
+          "usb.copy_of_transfer_flags_tree": {
+            "usb.transfer_flags.short_not_ok": "0",
+            "usb.transfer_flags.iso_asap": "0",
+            "usb.transfer_flags.no_transfer_dma_map": "1",
+            "usb.transfer_flags.no_fsbr": "0",
+            "usb.transfer_flags.zero_packet": "0",
+            "usb.transfer_flags.no_interrupt": "0",
+            "usb.transfer_flags.free_buffer": "0",
+            "usb.transfer_flags.dir_in": "0",
+            "usb.transfer_flags.dma_map_single": "0",
+            "usb.transfer_flags.dma_map_page": "0",
+            "usb.transfer_flags.dma_map_sg": "0",
+            "usb.transfer_flags.map_local": "0",
+            "usb.transfer_flags.setup_map_single": "0",
+            "usb.transfer_flags.setup_map_local": "0",
+            "usb.transfer_flags.dma_sg_combined": "0",
+            "usb.transfer_flags.aligned_temp_buffer": "0"
+          },
+          "usb.iso.numdesc": "0"
+        }
+      }
+    }
+  },
+  {
+    "_index": "packets-2022-12-27",
+    "_type": "doc",
+    "_score": null,
+    "_source": {
+      "layers": {
+        "frame": {
+          "frame.section_number": "1",
+          "frame.interface_id": "0",
+          "frame.interface_id_tree": {
+            "frame.interface_name": "usbmon0"
+          },
+          "frame.encap_type": "115",
+          "frame.time": "Dec 27, 2022 21:51:34.937565000 CST",
+          "frame.offset_shift": "0.000000000",
+          "frame.time_epoch": "1672199494.937565000",
+          "frame.time_delta": "0.000057000",
+          "frame.time_delta_displayed": "0.000217000",
+          "frame.time_relative": "10.357121000",
+          "frame.number": "26511",
+          "frame.len": "64",
+          "frame.cap_len": "64",
+          "frame.marked": "0",
+          "frame.ignored": "0",
+          "frame.protocols": "usb"
+        },
+        "usb": {
+          "usb.src": "5.48.1",
+          "usb.addr": "5.48.1",
+          "usb.dst": "host",
+          "usb.addr": "host",
+          "usb.urb_id": "0xffff956af6b65c80",
+          "usb.urb_type": "'C'",
+          "usb.transfer_type": "0x03",
+          "usb.endpoint_address": "0x01",
+          "usb.endpoint_address_tree": {
+            "usb.endpoint_address.direction": "0",
+            "usb.endpoint_address.number": "1"
+          },
+          "usb.device_address": "48",
+          "usb.bus_id": "5",
+          "usb.setup_flag": "'-'",
+          "usb.data_flag": "'>'",
+          "usb.urb_ts_sec": "1672199494",
+          "usb.urb_ts_usec": "937565",
+          "usb.urb_status": "0",
+          "usb.urb_len": "64",
+          "usb.data_len": "0",
+          "usb.request_in": "26506",
+          "usb.time": "0.000283000",
+          "usb.bInterfaceClass": "0xff",
+          "usb.unused_setup_header": "",
+          "usb.interval": "0",
+          "usb.start_frame": "0",
+          "usb.copy_of_transfer_flags": "0x00000004",
+          "usb.copy_of_transfer_flags_tree": {
+            "usb.transfer_flags.short_not_ok": "0",
+            "usb.transfer_flags.iso_asap": "0",
+            "usb.transfer_flags.no_transfer_dma_map": "1",
+            "usb.transfer_flags.no_fsbr": "0",
+            "usb.transfer_flags.zero_packet": "0",
+            "usb.transfer_flags.no_interrupt": "0",
+            "usb.transfer_flags.free_buffer": "0",
+            "usb.transfer_flags.dir_in": "0",
+            "usb.transfer_flags.dma_map_single": "0",
+            "usb.transfer_flags.dma_map_page": "0",
+            "usb.transfer_flags.dma_map_sg": "0",
+            "usb.transfer_flags.map_local": "0",
+            "usb.transfer_flags.setup_map_single": "0",
+            "usb.transfer_flags.setup_map_local": "0",
+            "usb.transfer_flags.dma_sg_combined": "0",
+            "usb.transfer_flags.aligned_temp_buffer": "0"
+          },
+          "usb.iso.numdesc": "0"
+        }
+      }
+    }
+  },
+  {
+    "_index": "packets-2022-12-27",
+    "_type": "doc",
+    "_score": null,
+    "_source": {
+      "layers": {
+        "frame": {
+          "frame.section_number": "1",
+          "frame.interface_id": "0",
+          "frame.interface_id_tree": {
+            "frame.interface_name": "usbmon0"
+          },
+          "frame.encap_type": "115",
+          "frame.time": "Dec 27, 2022 21:51:34.937677000 CST",
+          "frame.offset_shift": "0.000000000",
+          "frame.time_epoch": "1672199494.937677000",
+          "frame.time_delta": "0.000112000",
+          "frame.time_delta_displayed": "0.000112000",
+          "frame.time_relative": "10.357233000",
+          "frame.number": "26512",
+          "frame.len": "64",
+          "frame.cap_len": "64",
+          "frame.marked": "0",
+          "frame.ignored": "0",
+          "frame.protocols": "usb"
+        },
+        "usb": {
+          "usb.src": "5.48.1",
+          "usb.addr": "5.48.1",
+          "usb.dst": "host",
+          "usb.addr": "host",
+          "usb.urb_id": "0xffff956af6b643c0",
+          "usb.urb_type": "'C'",
+          "usb.transfer_type": "0x03",
+          "usb.endpoint_address": "0x01",
+          "usb.endpoint_address_tree": {
+            "usb.endpoint_address.direction": "0",
+            "usb.endpoint_address.number": "1"
+          },
+          "usb.device_address": "48",
+          "usb.bus_id": "5",
+          "usb.setup_flag": "'-'",
+          "usb.data_flag": "'>'",
+          "usb.urb_ts_sec": "1672199494",
+          "usb.urb_ts_usec": "937677",
+          "usb.urb_status": "0",
+          "usb.urb_len": "24",
+          "usb.data_len": "0",
+          "usb.request_in": "26507",
+          "usb.time": "0.000392000",
+          "usb.bInterfaceClass": "0xff",
+          "usb.unused_setup_header": "",
+          "usb.interval": "0",
+          "usb.start_frame": "0",
+          "usb.copy_of_transfer_flags": "0x00000004",
+          "usb.copy_of_transfer_flags_tree": {
+            "usb.transfer_flags.short_not_ok": "0",
+            "usb.transfer_flags.iso_asap": "0",
+            "usb.transfer_flags.no_transfer_dma_map": "1",
+            "usb.transfer_flags.no_fsbr": "0",
+            "usb.transfer_flags.zero_packet": "0",
+            "usb.transfer_flags.no_interrupt": "0",
+            "usb.transfer_flags.free_buffer": "0",
+            "usb.transfer_flags.dir_in": "0",
+            "usb.transfer_flags.dma_map_single": "0",
+            "usb.transfer_flags.dma_map_page": "0",
+            "usb.transfer_flags.dma_map_sg": "0",
+            "usb.transfer_flags.map_local": "0",
+            "usb.transfer_flags.setup_map_single": "0",
+            "usb.transfer_flags.setup_map_local": "0",
+            "usb.transfer_flags.dma_sg_combined": "0",
+            "usb.transfer_flags.aligned_temp_buffer": "0"
+          },
+          "usb.iso.numdesc": "0"
+        }
+      }
+    }
+  },
+  {
+    "_index": "packets-2022-12-27",
+    "_type": "doc",
+    "_score": null,
+    "_source": {
+      "layers": {
+        "frame": {
+          "frame.section_number": "1",
+          "frame.interface_id": "0",
+          "frame.interface_id_tree": {
+            "frame.interface_name": "usbmon0"
+          },
+          "frame.encap_type": "115",
+          "frame.time": "Dec 27, 2022 21:51:34.944547000 CST",
+          "frame.offset_shift": "0.000000000",
+          "frame.time_epoch": "1672199494.944547000",
+          "frame.time_delta": "0.000038000",
+          "frame.time_delta_displayed": "0.006870000",
+          "frame.time_relative": "10.364103000",
+          "frame.number": "26531",
+          "frame.len": "80",
+          "frame.cap_len": "80",
+          "frame.marked": "0",
+          "frame.ignored": "0",
+          "frame.protocols": "usb"
+        },
+        "usb": {
+          "usb.src": "5.48.1",
+          "usb.addr": "5.48.1",
+          "usb.dst": "host",
+          "usb.addr": "host",
+          "usb.urb_id": "0xffff956af6b64fc0",
+          "usb.urb_type": "'C'",
+          "usb.transfer_type": "0x03",
+          "usb.endpoint_address": "0x81",
+          "usb.endpoint_address_tree": {
+            "usb.endpoint_address.direction": "1",
+            "usb.endpoint_address.number": "1"
+          },
+          "usb.device_address": "48",
+          "usb.bus_id": "5",
+          "usb.setup_flag": "'-'",
+          "usb.data_flag": "'\\0'",
+          "usb.urb_ts_sec": "1672199494",
+          "usb.urb_ts_usec": "944547",
+          "usb.urb_status": "0",
+          "usb.urb_len": "16",
+          "usb.data_len": "16",
+          "usb.bInterfaceClass": "0xff",
+          "usb.unused_setup_header": "",
+          "usb.interval": "0",
+          "usb.start_frame": "0",
+          "usb.copy_of_transfer_flags": "0x00000204",
+          "usb.copy_of_transfer_flags_tree": {
+            "usb.transfer_flags.short_not_ok": "0",
+            "usb.transfer_flags.iso_asap": "0",
+            "usb.transfer_flags.no_transfer_dma_map": "1",
+            "usb.transfer_flags.no_fsbr": "0",
+            "usb.transfer_flags.zero_packet": "0",
+            "usb.transfer_flags.no_interrupt": "0",
+            "usb.transfer_flags.free_buffer": "0",
+            "usb.transfer_flags.dir_in": "1",
+            "usb.transfer_flags.dma_map_single": "0",
+            "usb.transfer_flags.dma_map_page": "0",
+            "usb.transfer_flags.dma_map_sg": "0",
+            "usb.transfer_flags.map_local": "0",
+            "usb.transfer_flags.setup_map_single": "0",
+            "usb.transfer_flags.setup_map_local": "0",
+            "usb.transfer_flags.dma_sg_combined": "0",
+            "usb.transfer_flags.aligned_temp_buffer": "0"
+          },
+          "usb.iso.numdesc": "0"
+        },
+        "usb.capdata": "04:f0:00:20:04:29:02:0f:04:05:00:15:07:00:06:f7"
+      }
+    }
+  },
+  {
+    "_index": "packets-2022-12-27",
+    "_type": "doc",
+    "_score": null,
+    "_source": {
+      "layers": {
+        "frame": {
+          "frame.section_number": "1",
+          "frame.interface_id": "0",
+          "frame.interface_id_tree": {
+            "frame.interface_name": "usbmon0"
+          },
+          "frame.encap_type": "115",
+          "frame.time": "Dec 27, 2022 21:51:34.944550000 CST",
+          "frame.offset_shift": "0.000000000",
+          "frame.time_epoch": "1672199494.944550000",
+          "frame.time_delta": "0.000003000",
+          "frame.time_delta_displayed": "0.000003000",
+          "frame.time_relative": "10.364106000",
+          "frame.number": "26532",
+          "frame.len": "64",
+          "frame.cap_len": "64",
+          "frame.marked": "0",
+          "frame.ignored": "0",
+          "frame.protocols": "usb"
+        },
+        "usb": {
+          "usb.src": "host",
+          "usb.addr": "host",
+          "usb.dst": "5.48.1",
+          "usb.addr": "5.48.1",
+          "usb.urb_id": "0xffff956af6b64fc0",
+          "usb.urb_type": "'S'",
+          "usb.transfer_type": "0x03",
+          "usb.endpoint_address": "0x81",
+          "usb.endpoint_address_tree": {
+            "usb.endpoint_address.direction": "1",
+            "usb.endpoint_address.number": "1"
+          },
+          "usb.device_address": "48",
+          "usb.bus_id": "5",
+          "usb.setup_flag": "'-'",
+          "usb.data_flag": "'<'",
+          "usb.urb_ts_sec": "1672199494",
+          "usb.urb_ts_usec": "944550",
+          "usb.urb_status": "-115",
+          "usb.urb_len": "64",
+          "usb.data_len": "0",
+          "usb.bInterfaceClass": "0xff",
+          "usb.unused_setup_header": "",
+          "usb.interval": "0",
+          "usb.start_frame": "0",
+          "usb.copy_of_transfer_flags": "0x00000204",
+          "usb.copy_of_transfer_flags_tree": {
+            "usb.transfer_flags.short_not_ok": "0",
+            "usb.transfer_flags.iso_asap": "0",
+            "usb.transfer_flags.no_transfer_dma_map": "1",
+            "usb.transfer_flags.no_fsbr": "0",
+            "usb.transfer_flags.zero_packet": "0",
+            "usb.transfer_flags.no_interrupt": "0",
+            "usb.transfer_flags.free_buffer": "0",
+            "usb.transfer_flags.dir_in": "1",
+            "usb.transfer_flags.dma_map_single": "0",
+            "usb.transfer_flags.dma_map_page": "0",
+            "usb.transfer_flags.dma_map_sg": "0",
+            "usb.transfer_flags.map_local": "0",
+            "usb.transfer_flags.setup_map_single": "0",
+            "usb.transfer_flags.setup_map_local": "0",
+            "usb.transfer_flags.dma_sg_combined": "0",
+            "usb.transfer_flags.aligned_temp_buffer": "0"
+          },
+          "usb.iso.numdesc": "0"
+        }
+      }
+    }
+  },
+  {
+    "_index": "packets-2022-12-27",
+    "_type": "doc",
+    "_score": null,
+    "_source": {
+      "layers": {
+        "frame": {
+          "frame.section_number": "1",
+          "frame.interface_id": "0",
+          "frame.interface_id_tree": {
+            "frame.interface_name": "usbmon0"
+          },
+          "frame.encap_type": "115",
+          "frame.time": "Dec 27, 2022 21:51:34.944568000 CST",
+          "frame.offset_shift": "0.000000000",
+          "frame.time_epoch": "1672199494.944568000",
+          "frame.time_delta": "0.000018000",
+          "frame.time_delta_displayed": "0.000018000",
+          "frame.time_relative": "10.364124000",
+          "frame.number": "26533",
+          "frame.len": "80",
+          "frame.cap_len": "80",
+          "frame.marked": "0",
+          "frame.ignored": "0",
+          "frame.protocols": "usb"
+        },
+        "usb": {
+          "usb.src": "host",
+          "usb.addr": "host",
+          "usb.dst": "5.48.1",
+          "usb.addr": "5.48.1",
+          "usb.urb_id": "0xffff956af6b65680",
+          "usb.urb_type": "'S'",
+          "usb.transfer_type": "0x03",
+          "usb.endpoint_address": "0x01",
+          "usb.endpoint_address_tree": {
+            "usb.endpoint_address.direction": "0",
+            "usb.endpoint_address.number": "1"
+          },
+          "usb.device_address": "48",
+          "usb.bus_id": "5",
+          "usb.setup_flag": "'-'",
+          "usb.data_flag": "'\\0'",
+          "usb.urb_ts_sec": "1672199494",
+          "usb.urb_ts_usec": "944568",
+          "usb.urb_status": "-115",
+          "usb.urb_len": "16",
+          "usb.data_len": "16",
+          "usb.response_in": "26534",
+          "usb.bInterfaceClass": "0xff",
+          "usb.unused_setup_header": "",
+          "usb.interval": "0",
+          "usb.start_frame": "0",
+          "usb.copy_of_transfer_flags": "0x00000004",
+          "usb.copy_of_transfer_flags_tree": {
+            "usb.transfer_flags.short_not_ok": "0",
+            "usb.transfer_flags.iso_asap": "0",
+            "usb.transfer_flags.no_transfer_dma_map": "1",
+            "usb.transfer_flags.no_fsbr": "0",
+            "usb.transfer_flags.zero_packet": "0",
+            "usb.transfer_flags.no_interrupt": "0",
+            "usb.transfer_flags.free_buffer": "0",
+            "usb.transfer_flags.dir_in": "0",
+            "usb.transfer_flags.dma_map_single": "0",
+            "usb.transfer_flags.dma_map_page": "0",
+            "usb.transfer_flags.dma_map_sg": "0",
+            "usb.transfer_flags.map_local": "0",
+            "usb.transfer_flags.setup_map_single": "0",
+            "usb.transfer_flags.setup_map_local": "0",
+            "usb.transfer_flags.dma_sg_combined": "0",
+            "usb.transfer_flags.aligned_temp_buffer": "0"
+          },
+          "usb.iso.numdesc": "0"
+        },
+        "usb.capdata": "04:f0:00:20:04:29:02:0f:04:05:00:15:07:00:06:f7"
+      }
+    }
+  },
+  {
+    "_index": "packets-2022-12-27",
+    "_type": "doc",
+    "_score": null,
+    "_source": {
+      "layers": {
+        "frame": {
+          "frame.section_number": "1",
+          "frame.interface_id": "0",
+          "frame.interface_id_tree": {
+            "frame.interface_name": "usbmon0"
+          },
+          "frame.encap_type": "115",
+          "frame.time": "Dec 27, 2022 21:51:34.944602000 CST",
+          "frame.offset_shift": "0.000000000",
+          "frame.time_epoch": "1672199494.944602000",
+          "frame.time_delta": "0.000034000",
+          "frame.time_delta_displayed": "0.000034000",
+          "frame.time_relative": "10.364158000",
+          "frame.number": "26534",
+          "frame.len": "64",
+          "frame.cap_len": "64",
+          "frame.marked": "0",
+          "frame.ignored": "0",
+          "frame.protocols": "usb"
+        },
+        "usb": {
+          "usb.src": "5.48.1",
+          "usb.addr": "5.48.1",
+          "usb.dst": "host",
+          "usb.addr": "host",
+          "usb.urb_id": "0xffff956af6b65680",
+          "usb.urb_type": "'C'",
+          "usb.transfer_type": "0x03",
+          "usb.endpoint_address": "0x01",
+          "usb.endpoint_address_tree": {
+            "usb.endpoint_address.direction": "0",
+            "usb.endpoint_address.number": "1"
+          },
+          "usb.device_address": "48",
+          "usb.bus_id": "5",
+          "usb.setup_flag": "'-'",
+          "usb.data_flag": "'>'",
+          "usb.urb_ts_sec": "1672199494",
+          "usb.urb_ts_usec": "944602",
+          "usb.urb_status": "0",
+          "usb.urb_len": "16",
+          "usb.data_len": "0",
+          "usb.request_in": "26533",
+          "usb.time": "0.000034000",
+          "usb.bInterfaceClass": "0xff",
+          "usb.unused_setup_header": "",
+          "usb.interval": "0",
+          "usb.start_frame": "0",
+          "usb.copy_of_transfer_flags": "0x00000004",
+          "usb.copy_of_transfer_flags_tree": {
+            "usb.transfer_flags.short_not_ok": "0",
+            "usb.transfer_flags.iso_asap": "0",
+            "usb.transfer_flags.no_transfer_dma_map": "1",
+            "usb.transfer_flags.no_fsbr": "0",
+            "usb.transfer_flags.zero_packet": "0",
+            "usb.transfer_flags.no_interrupt": "0",
+            "usb.transfer_flags.free_buffer": "0",
+            "usb.transfer_flags.dir_in": "0",
+            "usb.transfer_flags.dma_map_single": "0",
+            "usb.transfer_flags.dma_map_page": "0",
+            "usb.transfer_flags.dma_map_sg": "0",
+            "usb.transfer_flags.map_local": "0",
+            "usb.transfer_flags.setup_map_single": "0",
+            "usb.transfer_flags.setup_map_local": "0",
+            "usb.transfer_flags.dma_sg_combined": "0",
+            "usb.transfer_flags.aligned_temp_buffer": "0"
+          },
+          "usb.iso.numdesc": "0"
+        }
+      }
+    }
+  }
+]
