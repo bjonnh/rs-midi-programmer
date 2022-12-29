@@ -136,7 +136,7 @@ f7
 Changing the minimum to 1 on pot 1 and max to 126:
 ```hexdump
 ; prelude
-f0 00 20 29 02 0f
+f0 00 20 29 02 0f  ;; seemingly on the 88 the end byte is 0x12
 ; function and setting name (only one line like that)
 05 00 45 00 06 00 1a 04 40 20 07 4d 50 43 20 4f 6e 65
 05 00 45 01 05 00 1a 04 40 20 10 2a 4e 65 77 20 437573746f6d204d6f6465 ; Pad mode 1
@@ -292,7 +292,8 @@ Track right CC 0x67
 These three only work in drum mode:
 Up arrow: CC 0x6a  (pressed 0xff released 0x00)
 Down arrow: CC 0x6b
-Right arrow: CC 0x68 
+Right arrow: CC 0x68
+Stop/Solo/mute: CC 0x69 (only in DAW mode)
 
 This work all the time
 Device select: CC 0x33
